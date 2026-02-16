@@ -1,3 +1,6 @@
+* {
+    text-align: center;
+}
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -16,10 +19,13 @@ header.legacy {
     background: linear-gradient(135deg, #0077be, #01203a);
 }
 header.beta {
-    background: url('/assets/images/bg.png');
+    background:
+        linear-gradient(to bottom, rgba(10, 26, 47, 0) 60%, #0a1a2f 100%),
+        url('/assets/images/bg.png');
     background-size: cover;
     background-position: center;
 }
+
 
 header h1 {
     margin: 0;
@@ -41,6 +47,7 @@ main {
 h2 {
     color: #7fd0ff;
     margin-top: 1.5rem;
+    font-size: xx-large;
 }
 
 
