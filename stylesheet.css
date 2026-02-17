@@ -217,3 +217,13 @@ footer {
     transform: perspective(600px) rotateX(6deg) rotateY(6deg) translateY(-6px);
     box-shadow: 0 8px 20px rgba(167, 218, 255, 0.25);
 }
+/* 
+transform: perspective(600px) rotateX(6deg) rotateY(6deg) translateY(-6px);
+transition: transform 0.25s ease, box-shadow 0.25s ease;
+ */
+.img-box img {
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.img-box img:hover {
+    transform: translateY(-6px) translateX(-6px);
+}
